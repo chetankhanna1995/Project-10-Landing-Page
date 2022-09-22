@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(./Photos/retro-living-room-interior-design.jpg);
+  background-size:100%;
+  background-repeat: no-repeat;
+  /* background-position-y: -10%;   */
+  box-sizing: border-box;
+}
+ 
+
+
+
+
+nav{
+  /* height: 20vh; */
+  width: 100%;
+  color: #ffff;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.logo{
+  width: 25%;
+  display: block;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+
+
+.list{
+  width: 60%;
+  display: flex;
+  border-bottom: 1px solid #fff;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+
+.list-item{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  
+}
+
+.contact{
+   display: flex;
+   }
+
+.contact img{
+  height: 40px;
+  width: 60px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.contact h2{
+  font-size: 20px;
+  font-weight:bolder;
+}
+
+.main{
+  display:flex;
+  margin: 120px 30px 0px 100px;
+}
+
+
+.main-left{
+width: 60%;
+
+}
+
+.text-left{
+  color:#ffff;
+  font-size: 80px;
+  font-weight:400;
+}
+
+.btn{
+  margin-top: 30px;
+  font-size: 25px;
+  padding: 10px 20px;
+  background-color:transparent;
+  color:#ffff;
+  border: 2px solid #ffff;
+  border-radius: 20px;
+}
+
+
+
+.main-rights{
+  width: 30%;
+  
+  color:#ffff;
+  position: relative;
+}
+
+.right-top{
+  position: absolute;
+  top: -30px;
+  right: -50px;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 110px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgba(238, 238, 238, 0.18);
+  font-size: 15px;
+
+}
+
+.right-top img{
+  margin: 10px;
+  border-radius: 25px;
+  background-color: #fff;
+  height: 40px;
+  width: 80px;
+
+}
+
+
+.right-bottom{
+  /* position: relative; */
+  position: absolute;
+  top: 205px;
+  right: 270px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 120px;
+  padding: 10px;
+  background-color: rgba(238, 238, 238, 0.18);
+  font-size: 15px;
+
+}
+
+.right-bottom img{
+  margin: 10px;
+  border-radius: 25px;
+  background-color: #fff;
+  height: 40px;
+  width: 60px;
+
+}
+
+
+
+
+
+
+.line-1 {
+  height: 50px;
+  border-right: 2px solid rgba(238, 238, 238, 0.30);
+  position: absolute;
+  top: 150px;
+  right: 70px;
+}
+
+
+.dot{
+  width: 15px;
+  height: 15px;
+  background-color: #fff; 
+  border-radius: 50%;
+  
+}
+.dot-1 {
+  position: absolute;
+  top: 200px;
+  right: 62px;
+}
+
+
+.line-2{
+  position: absolute;
+  border-top: 2px solid rgba(238, 238, 238, 0.30) ;
+  width: 50px;
+  top: 55px;
+  left: 270px;
+
+}
+
+.dot-2 {
+  position: absolute;
+  left: 320px;
+  top: 48px;
+}

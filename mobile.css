@@ -1,0 +1,29 @@
+@media screen and (max-width:1150px) {
+    body{
+        background-size: 100%;
+    }
+    nav li{
+        display: none;
+        border-bottom: none;
+    }  
+    .list{
+        border-bottom: none;
+    }
+    .main{
+        width: 100%;
+        display: flex;
+    }
+    .main-left{
+        justify-content: space-between;
+        
+        text-align: center;
+    }
+    .contacts{
+        display: flex;
+        
+    }
+    
+    .main-rights{
+        display: none;
+    }
+}
